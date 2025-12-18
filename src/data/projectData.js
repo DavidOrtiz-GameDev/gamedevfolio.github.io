@@ -4,8 +4,19 @@ import legalWeb from "../assets/img-projects/legalweb.webp";
 import mediCare from "../assets/img-projects/medicare.jpg";
 import astroFit from "../assets/img-projects/Astrofit.jpg";
 import Verbenas from "../assets/img-projects/challenge-newyze.png";
+import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
 
 export const proyectos = [
+  {
+    titulo: "React Tiendita",
+    descripcion:
+      "E-commerce full stack desarrollado con React, Node.js y MongoDB. Incluye autenticación, carrito de compras, búsqueda, categorías, reseñas, etc.",
+    imagen: ReactEcommerce.src,
+    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
+    demo: "https://react-e-commerce-three-phi.vercel.app",
+    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    categoria: "fullstack",
+  },
   {
     titulo: "App organizacion",
     descripcion:
@@ -88,6 +99,16 @@ export const proyectos = [
     demo: "https://gym-page-sandy.vercel.app/",
     codigo: "https://github.com/Lautaro-R-collins/GymPage.git",
     categoria: "frontend",
+  },
+  {
+    titulo: "API REST para Ecommerce",
+    descripcion:
+      "API RESTful construida con Node.js, Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
+    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    demo: "https://react-e-commerce-three-phi.vercel.app/",
+    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    categoria: "backend",
   },
   {
     titulo: "100 days coding in Js",

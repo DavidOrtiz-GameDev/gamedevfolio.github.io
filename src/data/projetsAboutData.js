@@ -1,7 +1,15 @@
 import urbanStyle from "../assets/img-projects/urbanStyle.png";
 import imgNote from "../assets/img-projects/note-app.png";
+import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
 
 export const proyectos = [
+  {
+    titulo: "React Tiendita",
+    imagen: ReactEcommerce.src,
+    tecnologias: ["React", "Tailwind", "Node.js" ,"Express", "MongoDB", "jwt"],
+    demo: "https://react-e-commerce-three-phi.vercel.app",
+    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+  },
   {
     titulo: "E-commerce Urban Style",
     descripcion: "Descripción breve del proyecto 1.",
@@ -11,14 +19,6 @@ export const proyectos = [
     codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
   },
   {
-    titulo: "Tienda Artesana",
-    imagen:
-      "https://i.pinimg.com/736x/c9/70/bf/c970bfbc24489e39418b2c1b1f8f74ef.jpg",
-    tecnologias: ["React", "Node", "Express", "MongoDB"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
-  },
-  {
     titulo: "App organizacion",
     imagen: imgNote.src,
     tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
@@ -26,10 +26,10 @@ export const proyectos = [
     codigo: "https://github.com/Lautaro-R-collins/Front-react-todo",
   },
   {
-    titulo: "API REST",
+    titulo: "API REST para Ecommerce",
     imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
     tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://back-express-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
+    demo: "https://react-e-commerce-three-phi.vercel.app/",
+    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
   },
 ];
