@@ -8,6 +8,7 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: 'https://davidortiz-gamedev.github.io',
   vite: {
+    // @ts-ignore
     plugins: [tailwindcss()],
   },
 
